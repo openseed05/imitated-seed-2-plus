@@ -22,6 +22,7 @@ Pull Request 시 서버 코드에는 `?.`, `??`, `import` 등의 신문법, 프�
 ## 추가 된것
  - grant권한 보유시 환경설정 기능 추가, 하지만 config.json에 추가되어야 페이지에 원할한 접근이 된다.
  - 최근 토론 위 표시줄 변경
+  - 이것은 하고 mkdir skins하고 liberty git clone한후 붙여넣기 해라
 
 
 ## 기초 사용 방법
