@@ -5,14 +5,13 @@
 더시드 엔진 (구 프론트엔드 기준) 모방 프로젝트.  
 < "엔진 내부 UI는 상관없음." ( https://feedback.theseed.io/posts/280 ) >  
 
-[onamu-theseed](https://github.com/gdl-blue/onamu-theseed)의 후속이다.
+[onamu-theseed](https://github.com/gdl-blue/onamu-theseed)의 후속에 [imitated-seed-2](https://github.com/gdl-blue/imitated-seed-2)에 코드를 추가한거다.
+나는 편의성을 위해 제작해 [imitated-seed-2](https://github.com/gdl-blue/imitated-seed-2)에서 하고 코드를 수정하는것이 좋다. 
 
 이 엔진이 정상 작동하는 것으로 확인된 Node.js 버전은 8.6.0, 12.16.2, 12.18.1, 16.6.2이다. 만약 혹시나 Windows XP/Vista에서 실행이 필요한 경우 [이것](https://github.com/hlizard/node8-xp/raw/v8.6.0-xp/Release/Release.zip)을 사용할 것.
 
 테스트 서버:
-- [내 서버](https://go2021.glitch.me) - the seed 4.11.2
-- ~~[test님의 서버](https://seore.org) - the seed 4.20.0, Nuxt.js로 포팅됨~~
-- [테스트위키](https://testwiki.kr) - the seed 4.22.9
+제작 예정
 
 나무픽스와 거의 호환된다.
 
@@ -29,6 +28,7 @@ Pull Request 시 서버 코드에는 `?.`, `??`, `import` 등의 신문법, 프�
   - [buma](https://github.com/LiteHell/theseed-skin-buma/tree/d77eef50a77007da391c5082b4b94818db372417), [liberty](https://github.com/namuwiki/theseed-skin-liberty/tree/153cf78f70206643ec42e856aff8280dc21eb2c0) 등 원하는 스킨을 내려받고 skins 디렉토리에 스킨 이름으로 하위디렉토리를 만들어 복사한다.
 - `npm i`를 실행한다.
 - `node server`를 실행한다.
+- 이 방식은 추천을 하지 않는다. 따로 자기만의 방식을 추천한다.
 
 ## 이메일 설정법 [Gmail]
 - 먼저 "자신사이트주소/admin/config" 에 접속해 `사이트 주소`란에 자신의 사이트주소를 입력한다.
